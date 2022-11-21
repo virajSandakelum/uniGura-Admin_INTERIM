@@ -77,3 +77,26 @@ nav {
     border-radius: 5px;
     font-size: 20px;
 }
+
+.option_btn i{
+    font-size: 25px;
+}
+
+.option_btn a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F7931A;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.option_btn{
+    margin-top: 40px;
+}
+
+.fa-trash{
+    width: 30px;
+}
