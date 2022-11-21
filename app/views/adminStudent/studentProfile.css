@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+    background-color: #ffcfac9d;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+
+.tutor {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 50px 10%;
+}
+
+.profile_info {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.time_slots {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.class_earning_payoff_review_option_btn {
+    grid-area: 1 / 2 / 3 / 3;
+}
+
+.notification img {
+    width: 40px;
+    cursor: pointer;
+    position: relative;
+    right: 20px;
+}
+
+.title h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.profile_info{
+    display: flex;
+    align-items: center;
+}
+
+.tutor_info{
+    margin-left: 50px;
+}
+
+.profile_info img {
+    width: 100px;
+}
+
+.time_slots img{
+    width: 450px;
+    height: 300px;
+}
+
+.class_earning_payoff_review_option_btn .info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #F7931A;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.option_btn i{
+    font-size: 25px;
+}
+
+.option_btn a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #F7931A;
+    margin-right: 30px;
+    font-size: 25px;
+}
+
+.option_btn{
+    margin-top: 40px;
+}
+
+.fa-trash{
+    width: 30px;
+}
+
+.active_classes{
+    margin: 50px 10%;
+}
+
+.active_classes h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    background-color: #F7931A;
+    padding: 10px;
+    border-radius: 5px;
+    width:fit-content;
+    letter-spacing: 3px;
+}
+
+.classes{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.classes .class{
+    background-color: #FFCFAC;
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    line-height: 35px;
+    border: 2px solid #F7931A;
+
+}
