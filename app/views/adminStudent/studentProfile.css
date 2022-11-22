@@ -59,8 +59,12 @@ nav {
     margin-left: 20px;
 }
 
-.student_info a h4{
+.student_info a h4:hover{
     background-color: #F7931A;
+}
+
+.student_info a h4{
+    background-color: #FFCFAC;
     width:fit-content;
     padding: 6px;
     border-radius: 5px;
@@ -80,7 +84,7 @@ nav {
 
 
 .profile_info img {
-    width: 100px;
+    width: 120px;
 }
 
 
@@ -100,17 +104,22 @@ nav {
 
 .option_btn a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px;
     text-align: center;
     border-radius: 5px;
-    background-color: #F7931A;
+    background-color: #ffcfac9d;
     margin-right: 30px;
     font-size: 25px;
+    border: 2px solid black;
 }
 
 .option_btn {
     margin-top: 40px;
+}
+
+.option_btn a:hover {
+    background-color: #F7931A;
 }
 
 .fa-trash {
@@ -173,3 +182,4 @@ nav {
     border-radius: 5px;
     background-color: #f5f5f5;
 }
+
